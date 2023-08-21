@@ -1,0 +1,41 @@
+.FooterLeft {
+    height: 322px;
+    width: 305px;
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 57px;
+    width: 150px;
+}
+
+a {
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Fira Sans';
+    -webkit-box-direction: normal;
+    font-weight: 300;
+    font-size: 18px;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-bottom: 0 !important;
+}
+
+p {
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Fira Sans';
+    font-weight: normal;
+    color: #000000;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-bottom: 10px;
+}

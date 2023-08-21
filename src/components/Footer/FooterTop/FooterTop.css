@@ -1,0 +1,6 @@
+.FooterTop {
+    height: 322px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}

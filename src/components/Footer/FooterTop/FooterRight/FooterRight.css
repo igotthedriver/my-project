@@ -1,0 +1,102 @@
+.FooterRight {
+    height: 322px;
+    width: 915px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.FooterRightTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 130px;
+    align-items: end;
+}
+
+.Words {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.Searching {
+    -webkit-text-size-adjust: 100%;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    font: inherit;
+    overflow: visible;
+    margin: 0;
+    display: inline-block;
+    max-width: 100%;
+    border: 1px solid #e1e1e1;
+    height: 45px;
+    font-size: 16px;
+    background: transparent;
+    width: 100%;
+    outline: none;
+    padding: 10px 142px 10px 10px;
+    border-radius: 30px;
+    width: 370px;
+    height: 45px;
+}
+
+/* button {
+    -webkit-text-size-adjust: 100%;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    font: inherit;
+    overflow: visible;
+    text-transform: none;
+    border: none;
+    margin: 0;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    background: #ff5e0d;
+    position: absolute;
+    background-color: #ED4075;
+    right: 0;
+    bottom: 0;
+    padding: 0 20px;
+    border-radius: 30px;
+    height: 45px;
+    width: 45px;
+} */
+
+form {
+    display: flex;
+    flex-direction: row;
+    width: 440px;
+    height: 50px;
+}
+
+.FooterRightBottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+a {
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Fira Sans';
+    font-weight: normal;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-bottom: 0 !important;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 10px;
+}

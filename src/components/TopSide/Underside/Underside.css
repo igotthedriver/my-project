@@ -1,0 +1,35 @@
+.Underside {
+    width: 100%;
+    height: 116px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.UndersideRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 640px;
+}
+
+.SideLeft {
+    display: flex;
+    flex-direction: row;
+}
+
+.SideRight {
+    display: flex;
+    flex-direction: row;
+}
+
+ select {
+    text-transform: none;
+    display: inline-block;
+    max-width: 100%;
+    border: 1px solid #d7d7d7;
+    cursor: pointer;
+    height: 23px;
+    margin-top: 18px;
+    margin-left: 18px;
+} 

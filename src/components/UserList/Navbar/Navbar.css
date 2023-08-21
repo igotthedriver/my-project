@@ -1,0 +1,75 @@
+.Navbar {
+    width: 310px;
+    height: 995px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.NavbarTop {
+    width: 290px;
+    height: 244px;
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    font-weight: normal;
+    background: #ff5e0d;
+    color: #fff;
+    background-color: #ED4075;
+}
+
+.NavbarBottom {
+    width: 290px;
+    height: 290px;
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    font-weight: normal;
+    color: #000000;
+    padding: 40px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    font-family: 'Fira Sans';
+    list-style: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+.Roster {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+
+.Parfume {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h3 {
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Fira Sans';
+    color: #000000;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 0 10px 0;
+}
+
+
+.NavbarImg {
+    width: 290px;
+    height: 290px;
+}
+
+#NavbarPicture {
+    width: 290px;
+    height: 290px;
+}

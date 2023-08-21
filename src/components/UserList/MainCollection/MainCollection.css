@@ -1,0 +1,61 @@
+.MainCollection {
+    width: 621px;
+    height: 995px;
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    font-weight: normal;
+    color: #000000;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 66.66667%;
+    flex-basis: 66.66667%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 200px;
+    flex-wrap: wrap;
+}
+
+.Subsidiary {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+h1 {
+    font-family: 'Fira Sans';
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 30px;
+    margin: 0 0 20px 0;
+    padding: 25px 25px 0;
+}
+
+#perfume {
+    height: 300px;
+    width: 200px;
+}
+
+.Subsidiary:nth-child(n+4) {
+    order: 1;
+}
+
+#digit {
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Fira Sans';
+    -webkit-box-direction: normal;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: bolder;
+    font-size: 16px;
+    color: #ED4075;
+}
