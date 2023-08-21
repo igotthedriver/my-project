@@ -66,10 +66,44 @@ h3 {
 
 .NavbarImg {
     width: 290px;
-    height: 290px;
+    height: 323px;
 }
 
 #NavbarPicture {
     width: 290px;
     height: 290px;
 }
+
+.relative {
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Fira Sans';
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+}
+
+.banner-text {
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    color: #000000;
+    -webkit-box-direction: normal;
+    font-weight: 300;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.37);
+    border-top: solid 1px #fff;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
+

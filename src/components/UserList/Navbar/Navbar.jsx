@@ -38,9 +38,12 @@ const Navbar = () => {
                     <h3>Для кого</h3>
                 </div>
             </form>
-            <div className="NavbarImg">
-                <img src="https://static.insales-cdn.com/assets/1/3309/888045/1668370167/collection_banner_image.jpg" id="NavbarPicture"></img>
-            </div>
+                <div className="NavbarImg">
+                    <img src="https://static.insales-cdn.com/assets/1/3309/888045/1668370167/collection_banner_image.jpg" id="NavbarPicture"></img>
+                    <div className="banner-text">
+                        <a className="relative" href="/">Крема для чувствительной кожи со скидкой до 15% до конца лета!</a>
+                    </div>
+                </div>
         </div>
         )
 }
